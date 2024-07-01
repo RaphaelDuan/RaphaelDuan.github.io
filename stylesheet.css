@@ -133,3 +133,56 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* General label styling */
+.ccf-label {
+  display: inline-block;
+  width: 40px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  color: Black;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Specific label colors */
+.ccf-a {
+  background-color: #dc3445; /* Red for CCF A */
+}
+
+.ccf-b {
+  background-color: #ffc106; /* Orange for CCF B */
+}
+
+.ccf-none {
+  background-color: #28a746; /* Gray for CCF none */
+}
+
+.core-label {
+  display: inline-block;
+  width: 50px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  color: Black;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+/* Specific label colors */
+.core-a {
+  background-color: #dc3445; /* Red for CCF A */
+}
+
+.core-b {
+  background-color: #ffc106; /* Orange for CCF B */
+}
+
+.core-none {
+  background-color: #28a746; /* Gray for CCF none */
+}
