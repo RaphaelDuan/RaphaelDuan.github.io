@@ -186,3 +186,20 @@ span.highlight {
 .core-none {
   background-color: #28a746; /* Gray for CCF none */
 }
+
+.highlight-label {
+  display: inline-block;
+  padding: 3px 6px;  /* 两边各留6px的宽度 */
+  border-radius: 5px;
+  color: #FFD700; /* 金色字体 */
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  text-align: center;
+  white-space: nowrap; /* 防止文本换行，确保宽度根据文本长度调整 */
+}
+
+.highlight-x {
+  background-color: #1A1A1A;
+}
