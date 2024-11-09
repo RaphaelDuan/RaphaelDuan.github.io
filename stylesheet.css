@@ -203,3 +203,32 @@ span.highlight {
 .highlight-x {
   background-color: #1A1A1A;
 }
+
+/* General label styling */
+.community-label {
+  display: inline-block;
+  padding: 1px 2px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Specific label colors (removed background) */
+.community-sigmobile {
+  color: blue;
+}
+
+.community-sigchi {
+  color: green;
+}
+
+.community-sigbed {
+  color: purple;
+}
+
+.community-ieee {
+  color: #1A1A1A;
+}
