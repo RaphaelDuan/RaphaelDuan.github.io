@@ -161,6 +161,51 @@
             </td>
           </tr>
 
+          <tr onmouseout="Argus_stop()" onmouseover="Argus_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one" style="display: flex; align-items: center; height: 100%;">
+                <div class="two" id='Argus_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/projects/Argus.jpg">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/projects/Argus.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function Argus_start() {
+                  document.getElementById('Argus_image').style.opacity = "1";
+                }
+                
+                function Argus_stop() {
+                  document.getElementById('Argus_image').style.opacity = "0";
+                }
+                Argus_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+            <span class="papertitle">[<a href="https://arxiv.org/abs/2411.00419">arXiv</a>] Argus: Multi-View Egocentric Human Mesh Reconstruction Based on Stripped-Down Wearable mmWave Add-on</span>
+              <br>
+
+              <u><b>Di Duan</b></u>,
+              Shengzhe Lyu,
+              Mu Yuan,
+              Hongfei Xue,
+              Tianxing Li,
+              Weitao Xu,
+              Kaishun Wu,
+              Guoliang Xing
+              <br>
+
+              [<a href="papers/Argus_arXiv.pdf">paper</a>] [<a href="cite/Argus.bib">cite</a>]
+              <br>
+
+
+              <p></p>
+              <p>
+                Argus is the first to investigate multi-view egocentric HMR based on stripped-down mmWave radars in a multi-view configuration. Compared to conventional frontal-view solutions, it addresses several pain points, such as restricted sensing range and occlusion issues.
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="F2Key_stop()" onmouseover="F2Key_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one" style="display: flex; align-items: center; height: 100%;">
