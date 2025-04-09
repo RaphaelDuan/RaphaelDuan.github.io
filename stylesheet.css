@@ -222,11 +222,15 @@ span.highlight {
 }
 
 .community-sigchi {
-  color: green;
+  color: #E4A44B;
 }
 
 .community-sigbed {
   color: purple;
+}
+
+.community-siggraph {
+  color: #9A2233;
 }
 
 .community-ieee {
