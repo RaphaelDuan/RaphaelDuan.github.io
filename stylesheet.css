@@ -134,6 +134,42 @@ span.highlight {
   background-color: #fcfc67;
 }
 
+body {
+  font-family: 'Lato';
+  margin: 0 auto;
+  padding: 20px;
+}
+
+details {
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+summary:hover {
+  background-color: #e0e0e0;
+}
+
+summary::before {
+  content: '▶ ';
+  display: inline-block;
+  margin-right: 5px;
+  transition: transform 0.3s;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
 /* General label styling */
 .ccf-label {
   display: inline-block;
