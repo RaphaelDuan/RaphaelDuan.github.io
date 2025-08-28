@@ -160,7 +160,7 @@ summary:hover {
 }
 
 summary::before {
-  content: '▶ ';
+  content: '▶';
   display: inline-block;
   margin-right: 5px;
   transition: transform 0.3s;
