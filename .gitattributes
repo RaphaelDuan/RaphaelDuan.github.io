@@ -1,4 +1,1 @@
-slide/PricoEye_duan_clean.pdf filter=lfs diff=lfs merge=lfs -text
-papers/PricoEye_UIST25.pdf filter=lfs diff=lfs merge=lfs -text
-papers/Prico_UIST25.pdf filter=lfs diff=lfs merge=lfs -text
 slide/PricoEye_duan_clean.pdf !text !filter !merge !diff
